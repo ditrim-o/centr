@@ -1,0 +1,18 @@
+doctype html
+html(lang="ru")
+    block head
+        head
+            meta(charset="utf-8")
+            title Title your site
+            meta(content="width=device-width, initial-scale=1" name="viewport")
+            meta(content="ie=edge" http-equiv="x-ua-compatible")
+            link(rel="stylesheet" href="css/style.min.css")
+            script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js")
+    body
+        block header
+            include header
+        block content
+        block footer
+            include footer
+        block scripts
+            script(src='js/main.min.js')

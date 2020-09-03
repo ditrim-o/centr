@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="37" y1="258" x2="475" y2="258" gradientTransform="matrix(1 0 0 -1 0 514)">
+	<stop  offset="0" style="stop-color:#1040AD"/>
+	<stop  offset="1" style="stop-color:#1FCCCC"/>
+</linearGradient>
+<path class="st0" d="M455,352c11,0,20-9,20-20V80c0-44.1-35.9-80-80-80H117C72.9,0,37,35.9,37,80v352c0,44.1,35.9,80,80,80h278
+	c44.1,0,80-35.9,80-80c0-11-9-20-20-20s-20,9-20,20c0,22.1-17.9,40-40,40H117c-22.1,0-40-17.9-40-40V80c0-22.1,17.9-40,40-40h278
+	c22.1,0,40,17.9,40,40v252C435,343,444,352,455,352z M375,392h-80c-11,0-20,9-20,20s9,20,20,20h80c11,0,20-9,20-20S386,392,375,392z
+	 M137,240c-11,0-20,9-20,20s9,20,20,20s21.1-9,21.1-20S148,240,137,240z M217,240c11,0,20,9,20,20s-9,20-20,20s-20-9-20-20
+	S206,240,217,240z M296,240c11,0,20,9,20,20s-9,20-20,20s-20-9-20-20S285,240,296,240z M137,316c-11,0-20,9-20,20s9,20,20,20
+	s21-9,21-20S148,316,137,316z M217,316c11,0,20,9,20,20s-9,20-20,20s-20-9-20-20S206,316,217,316z M296,316c11,0,20,9,20,20
+	s-9,20-20,20s-20-9-20-20S285,316,296,316z M375,240c11,0,20,9,20,20s-9,20-20,20s-20-9-20-20S364,240,375,240z M137,392
+	c11,0,20,9,20,20s-9,20-20,20s-20-9-20-20S126,392,137,392z M375,316c11,0,20,9,20,20s-9,20-20,20s-20-9-20-20S364,316,375,316z
+	 M216,392c11,0,20,9,20,20s-9,20-20,20s-20-9-20-20S205,392,216,392z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="117" y1="374" x2="395" y2="374" gradientTransform="matrix(1 0 0 -1 0 514)">
+	<stop  offset="0" style="stop-color:#1040AD"/>
+	<stop  offset="1" style="stop-color:#1FCCCC"/>
+</linearGradient>
+<path class="st1" d="M375,80H137c-11,0-20,9-20,20v80c0,11,9,20,20,20h238c11,0,20-9,20-20v-80C395,89,386,80,375,80z M355,160H157
+	v-40h198V160z"/>
+</svg>

@@ -1,0 +1,176 @@
+.footer {
+   background-color: #f5f5f5;
+   margin-top: -82px;
+   padding-top: 110px;
+   padding-bottom: 44px;
+   @include media-tablet{
+    margin-top: 55px;
+    padding-top: 24px;
+   }
+   &__top{
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @include media-tablet{
+        max-width: 300px;
+        margin: 0 auto;
+       }
+   }
+   &__menu{
+    @include media-tablet{
+        flex-basis: 100%;
+        order: 4;
+       }
+   }
+   &__logo{
+    @include media-tablet{
+        max-width: 80px;
+       }
+    
+   }
+   &__nav{
+       justify-content: space-between;
+       max-width: 100%;
+       width: 300px;
+       margin-right: 317px;
+       
+       @include media-laptop{
+        width: 233px;
+        margin-right: 147px;
+       }
+       @include media-tablet{
+        margin: 0 auto;
+        width: 250px;
+       }
+       &-item{
+           
+       }
+   }
+   &__nav-item a{
+       font-size: 16px;
+       font-weight: bold;
+       color: black;
+   }
+   &__tel{
+       flex-direction: column;
+       text-align: right;
+       &-top-text, &-bottom-text{
+           font-size: 12px;
+           font-weight: 500;
+           line-height: 17px;
+           @include media-tablet{
+            line-height: 13px;
+           }
+       }
+       &-num{
+           font-size: 23px;
+           font-weight: bold;
+           color: #1040ad;
+           @include media-tablet{
+            font-size: 18px;
+           }
+       }
+   }
+    &__social{
+        justify-content: space-between;
+        width: 295px;
+        @include media-laptop{
+            width: 286px;
+        }
+        @include media-tablet{
+            width: 100%;
+            max-width: 300px;
+        }
+    }
+    &__social-wrapprer{
+        margin-top: -8px;
+        width: 100%;
+        justify-content: flex-end;
+        @include media-tablet{
+            justify-content: center;
+            margin-top: 32px;
+            margin-bottom: 50px;
+           }
+    }
+    &__adress{
+        justify-content: space-between;
+        max-width: 844px;
+        margin: 0 auto;
+        padding-top: 64px;
+        @include media-laptop{
+            padding-top: 57px;
+        }
+        @include media-tablet{
+            flex-direction: column;
+            padding-top: 48px;
+           }
+        &-item{
+            text-align: center;
+            flex-direction: column;
+            @include media-tablet{
+                margin-bottom: 30px;
+               }
+        }
+        &-text{
+            font-size: 14px;
+            color: #727272;
+            line-height: 20px;
+            margin-bottom: 10px;
+        }
+        &-tel{
+            color: #1040ad;
+            font-size: 16px;
+            font-weight: 600;
+            @include media-tablet{
+                line-height: 20px;
+               }
+        }
+        &-mail{
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: underline;
+            color: #1040ad;
+            margin-top: 15px;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+    &__bottom{
+        justify-content: space-between;
+        margin-top: 73px;
+        padding: 0 15px;
+        @include media-laptop{
+            padding: 0;
+            margin-top: 48px;
+        }
+        @include media-tablet{
+            flex-direction: column;
+            text-align: center;
+            margin-top: 9px;
+           }
+    }
+    &__policy{
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: underline;
+        color: #bbbbbb;
+        @include media-tablet{
+            order: 2;
+            margin-top: 13px;
+           }
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    &__link{
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: underline;
+        color: #1040ad;
+        &:hover{
+            text-decoration: none;
+        }
+
+    }
+}
