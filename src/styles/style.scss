@@ -134,19 +134,20 @@ a:hover{
         max-height: 57px;
     }
     & img{
+        width: 150px;
         @include media-tablet{
             max-height: 57px;
         }
     }
     &__desc{
         @include media-tablet{
-            display: none;
+            //display: none;
         }
     }
     &__mob{
         display:none;
         @include media-tablet{
-            display: block;
+            //display: block;
         }
     }
  }

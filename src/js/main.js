@@ -197,7 +197,6 @@ $(document).ready(() => {
         function parallax(obj, direction, begin, speed) {
             const cords = getCoords(obj)
             let pos = parseInt(getComputedStyle(obj).left, 10)
-            console.log(`start`, begin, pos)
             if (start > cords && start < cords + winHeight) {
                 if (y < window.pageYOffset) {
                     if (direction == `left` && pos > begin - 350) {
@@ -261,7 +260,6 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag)
 
 let player
 window.onYouTubePlayerAPIReady = function () {
-    console.log(`API  is Ready`)
     const video = document.querySelectorAll(`.video-yt`)
     const videoBtn = document.querySelectorAll(`.video__thumbnail`)
     videoBtn.forEach(function (item, i, arr) {

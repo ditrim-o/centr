@@ -9,8 +9,11 @@ header
             span.lines.line3 
         div.logo
           a(href="/")
-            <img src="img/Zakon-logo-w.png" class="logo__desc" title="logo"/>
-            <img src="img/footer-logo.png" class="logo__mob" title="logo"/>
+            picture
+              <source srcset="img/Zakon-logo-main.svg" media="(max-width: 870px)">
+              <img src="img/Zakon-logo-w.svg" class="logo__desc" alt="logo">
+            //<img src="img/Zakon-logo-w.svg" class="logo__desc" title="logo"/>
+            <img src="img/Zakon-logo-main.svg" class="logo__mob" title="logo"/>
         a.phone-mob(href="tel:88005114791")
           <img src="img/call.svg"/>    
         .menu-mob.d-flex   

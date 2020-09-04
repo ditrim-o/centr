@@ -23,9 +23,16 @@
        }
    }
    &__logo{
+
     @include media-tablet{
         max-width: 80px;
        }
+    img{
+        width: 200px;
+        @include media-tablet{
+            max-width: 80px;
+           }
+    }
     
    }
    &__nav{
