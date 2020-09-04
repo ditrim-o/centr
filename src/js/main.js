@@ -191,7 +191,7 @@ $(document).ready(() => {
         if (document.documentElement.clientWidth > 1300) {
             parallax(calc, `left`, calcStart, 10)
             parallax(services, `left`, servicesStart, 15)
-            parallax(question, `left`, questionStart, 10)
+            parallax(question, `left`, questionStart, 15)
             parallax(expert, `right`, expertStart, 10)
         }
         function parallax(obj, direction, begin, speed) {
@@ -200,11 +200,9 @@ $(document).ready(() => {
             console.log(`start`, begin, pos)
             if (start > cords && start < cords + winHeight) {
                 if (y < window.pageYOffset) {
-                    if (direction == `left`) {
-                        if (pos > begin - 350) {
-                            pos = pos - speed
-                            obj.style.left = pos + `px`
-                        }
+                    if (direction == `left` && pos > begin - 350) {
+                        pos = pos - speed
+                        obj.style.left = pos + `px`
                     } else {
                         if (pos < begin + 350) {
                             pos = pos + speed
@@ -212,11 +210,9 @@ $(document).ready(() => {
                         }
                     }
                 } else {
-                    if (direction == `left`) {
-                        if (begin > pos) {
-                            pos = pos + speed
-                            obj.style.left = pos + `px`
-                        }
+                    if (direction == `left` && begin > pos) {
+                        pos = pos + speed
+                        obj.style.left = pos + `px`
                     } else {
                         if (begin < pos) {
                             pos = pos - speed
