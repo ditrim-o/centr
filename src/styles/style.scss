@@ -381,7 +381,7 @@ a:hover{
     }
 
     &:before{
-        background-image: url(/img/banner-desk.png);
+        background-image: url(../img/banner-desk.png);
         content: "";
         width: 100%;
         background-position: top;
@@ -483,7 +483,7 @@ a:hover{
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.02em;
-    background-image: url(/img/arrow_right.svg);
+    background-image: url(../img/arrow_right.svg);
     background-repeat: no-repeat;
     background-position: top 50% right 37px;
     @include media-laptop{
@@ -680,7 +680,7 @@ a:hover{
         position: relative;
     }
     &__include-steps-item_hover &__include-item-text:after{
-        background-image: url(/img/question.svg);
+        background-image: url(../img/question.svg);
         background-repeat: no-repeat;
         height: 18px;
         width: 18px;
@@ -847,7 +847,7 @@ a:hover{
         }
         &:before{
             content:"";
-            background-image: url(/img/cursor.svg);
+            background-image: url(../img/cursor.svg);
             background-size: contain;
             height: 51px;
             width: 47px;
@@ -1008,7 +1008,7 @@ a:hover{
     top: 0;
 }
 .lawyers{
-    background-image: url(/img/map.png);
+    background-image: url(../img/map.png);
     background-position: top -154px center;
     background-size: auto;
     background-repeat: no-repeat;
@@ -1181,7 +1181,7 @@ a:hover{
             &:before{
                 content:"";
                 background-color: #1040ad;
-                background-image: url(/img/1files.svg);
+                background-image: url(../img/1files.svg);
                 min-height: 100px;
                 min-width: 100px;
                 display: block;
@@ -1524,7 +1524,7 @@ a:hover{
         cursor: pointer;
         &:after{
             content:"";
-            background-image: url(/img/yt-play.png);
+            background-image: url(../img/yt-play.png);
             position: absolute;
             top: 50%;
             left: 50%;
@@ -1606,7 +1606,7 @@ a:hover{
         } 
         &:before{
             content:"";
-            background-image: url(/img/online-chat.svg);
+            background-image: url(../img/online-chat.svg);
             background-size: contain;
             height: 63px;
             width: 64px;
