@@ -123,8 +123,10 @@ $(document).ready(() => {
     }
 
     popup.addEventListener(`click`, function (event) {
-        if (event.target == popup || event.target == closePopup) { popup.classList.remove(`popup_active`) }
-        body.classList.remove(`scroll-hide`)
+        if (event.target == popup || event.target == closePopup) { 
+            popup.classList.remove(`popup_active`)
+            body.classList.remove(`scroll-hide`)}
+        
     })
 
 

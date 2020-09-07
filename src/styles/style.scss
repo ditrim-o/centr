@@ -388,6 +388,7 @@ a:hover{
         z-index: -1;
         background-position: top center;
         background-size: cover;
+        background-image: url(../img/banner-desk.png);
         @include media-laptop{
             height: 573px;
         }
@@ -1002,6 +1003,7 @@ a:hover{
         height: 52px;
         background-color: white;
         border: none;
+        padding: 0 15px;
     }
 
     &__btn{
