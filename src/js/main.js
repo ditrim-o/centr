@@ -123,10 +123,30 @@ $(document).ready(() => {
     }
 
     popup.addEventListener(`click`, function (event) {
-        if (event.target == popup || event.target == closePopup) { 
+        if (event.target == popup || event.target == closePopup) {
             popup.classList.remove(`popup_active`)
-            body.classList.remove(`scroll-hide`)}
-        
+            body.classList.remove(`scroll-hide`)
+        }
+
+    })
+
+    /* popup success show/hide*/
+
+    const popusSuccess = document.querySelector(`#popup-success-wrapper`)
+    const succesClose = document.querySelector(`#success__btn`)
+
+    closePopup.addEventListener(`click`, function (event) {
+
+        popusSuccess.classList.add(`popup_active`)
+        body.classList.add(`scroll-hide`)
+
+    })
+    popusSuccess.addEventListener(`click`, function (event) {
+        if (event.target == succesClose || event.target == popusSuccess) {
+            popusSuccess.classList.remove(`popup_active`)
+            body.classList.remove(`scroll-hide`)
+        }
+
     })
 
 
