@@ -1498,7 +1498,8 @@ a:hover{
             }
             @include media-custom(500px){
                 top: auto;
-                bottom: -65px;
+                bottom: -11px;
+                transform: translateY(0%);
             } 
             
             & .owl-prev span, .owl-next span{
